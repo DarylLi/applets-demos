@@ -1,0 +1,11 @@
+
+.backHover{
+  color: red;
+}
+navigator{
+  line-height: 40px;
+  font-size: 17px;
+  background-color: f5f5f5;
+  border-top: 1px solid #eee;
+  text-align: center;
+}

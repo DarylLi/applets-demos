@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/demo/demo",
+    "pages/map/map",
+    "pages/camera/camera"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTitleText": "随便折腾",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"#eee",
+    "enablePullDownRefresh":true
+  },
+  "networkTimeout": {
+    "request": 10000, 
+    "downloadFile": 10000  
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "demo"
+      }
+    ],
+    "position": "top"
+  }
+}

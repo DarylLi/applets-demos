@@ -1,0 +1,11 @@
+
+<!--demo.wxml  -->
+<!-- This is our View -->
+<view> Hello {{name}}! </view>
+<button bindtap="changeName"> Click me! </button>
+<navigator open-type="switchTab" url="/pages/index/index" hover-class="backHover">简单的一个返回 </navigator>
+<navigator open-type="navigateTo" url="/pages/map/map">跳转到地图demo</navigator> 
+<navigator open-type="navigateTo" url="/pages/camera/camera">照个像</navigator> 
+<button> Click ！ </button>
+<button> Click ！ </button>
+<button> Click ！ </button>
